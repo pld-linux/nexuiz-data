@@ -1,11 +1,12 @@
+%define _ver	%(echo %{version} |tr -d .)
 Summary:	nexuiz - data files for game
 Summary(pl):	nexuiz - pliki danych dla gry
 Name:		nexuiz-data
 Version:	2.2.3
 Release:	1
-License:	GPL
+License:	GPL v2
 Group:		Applications/Games
-Source0:	http://dl.sourceforge.net/nexuiz/nexuiz-223.zip
+Source0:	http://dl.sourceforge.net/nexuiz/nexuiz-%{_ver}.zip
 # Source0-md5:	953fda1555fc1f9ca040bdbb797eb0fd
 URL:		http://nexuiz.com/
 BuildRequires:	unzip
@@ -27,7 +28,7 @@ Pliki danych dla nexuiz.
 %install
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{_datadir}/games/%{name}/data
-install data $RPM_BUILD_ROOT%{_datadir}/games/%{name}
+cp -rf data $RPM_BUILD_ROOT%{_datadir}/games/%{name}
 
 %clean
 rm -rf $RPM_BUILD_ROOT
