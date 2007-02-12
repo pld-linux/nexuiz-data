@@ -1,6 +1,6 @@
 %define _ver	%(echo %{version} |tr -d .)
 Summary:	nexuiz - data files for game
-Summary(pl):	nexuiz - pliki danych dla gry
+Summary(pl.UTF-8):   nexuiz - pliki danych dla gry
 Name:		nexuiz-data
 Version:	2.2.3
 Release:	1
@@ -17,7 +17,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Nexuiz data files
 
-%description -l pl
+%description -l pl.UTF-8
 Pliki danych dla nexuiz.
 
 %prep
