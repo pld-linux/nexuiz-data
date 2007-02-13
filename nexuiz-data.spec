@@ -15,10 +15,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Nexuiz data files
+Nexuiz data files.
 
 %description -l pl.UTF-8
-Pliki danych dla nexuiz.
+Pliki danych dla gry nexuiz.
 
 %prep
 
