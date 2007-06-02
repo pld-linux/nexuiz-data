@@ -1,8 +1,8 @@
-%define _ver	%(echo %{version} | tr -d . | cut -c -2)
+%define _ver	%(echo %{version} | tr -d .)
 Summary:	nexuiz - data files for game
 Summary(pl.UTF-8):	nexuiz - pliki danych dla gry
 Name:		nexuiz-data
-Version:	2.3.0
+Version:	2.3
 Release:	1
 License:	GPL v2+
 Group:		Applications/Games
