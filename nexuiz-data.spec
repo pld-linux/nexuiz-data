@@ -2,12 +2,12 @@
 Summary:	nexuiz - data files for game
 Summary(pl.UTF-8):	nexuiz - pliki danych dla gry
 Name:		nexuiz-data
-Version:	2.3
+Version:	2.4
 Release:	1
 License:	GPL v2+
 Group:		Applications/Games
 Source0:	http://dl.sourceforge.net/nexuiz/nexuiz-%{_ver}.zip
-# Source0-md5:	b60c1f5198135463d00261646ae26911
+# Source0-md5:	7ecf1e683c3db02cdbc8d4514e8e33ce
 URL:		http://nexuiz.com/
 BuildRequires:	unzip
 Requires:	nexuiz
