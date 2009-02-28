@@ -5,7 +5,7 @@ Name:		nexuiz-data
 Version:	2.4.2
 Release:	1
 License:	GPL v2+
-Group:		Applications/Games
+Group:		X11/Applications/Games
 Source0:	http://dl.sourceforge.net/nexuiz/nexuiz-%{_ver}.zip
 # Source0-md5:	2ea51368774ca603fd56faebfeac74d7
 URL:		http://nexuiz.com/
